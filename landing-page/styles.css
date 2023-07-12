@@ -95,3 +95,28 @@ header .right-container .img{
     align-items: center;
     gap: 20px;
 }
+
+.quote-section{
+    height: 60vh;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.quote-section p{
+    width: 67%;
+    margin: 0 auto;
+    font-size: 36px;
+    font-weight: lighter;
+    letter-spacing: 0.5px;
+    color: #1f2937;
+}
+.quote-section figcaption{
+    width: 40%;
+    color: #1f2937;
+    margin-top: -10px;
+    font-size: 25px;
+    font-weight: bolder;
+    align-self: flex-end;
+}
