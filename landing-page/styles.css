@@ -120,3 +120,28 @@ header .right-container .img{
     font-weight: bolder;
     align-self: flex-end;
 }
+
+.call-to-action{
+    height: 50vh;
+}
+.call-to-action__container{
+    color: #E5E7EB;
+    background-color: #3882f6;
+    width: 60%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 7% auto;
+    padding: 40px 80px;
+    line-height: 3px;
+}
+.call-to-action__container .right-section button{
+    padding: 5px 30px;
+    border-radius: 5px;
+    border: 2px solid #E5E7EB;
+    color: #E5E7EB;
+    background-color: #3882f6;
+    font-size: 15px;
+    font-weight: bolder;
+}
