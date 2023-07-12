@@ -66,3 +66,32 @@ header .right-container .img{
     width: 500px;
     height: 250px;
 }
+
+.random__info{
+    height: 60vh;
+}
+.random__info .random__info-title{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-top: 3rem;
+}
+.random__info .container .box-container{
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    color: #1F2937;;
+}
+.random__info .container .box{
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+}
+.random__info .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
